@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-03-04" view-index="0" gantt-divider-location="277" resource-divider-location="300" version="3.1.3103" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="153" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="60" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="60" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#990099 #00cc33 #99ff99 #ff9999 #999999 #999900 #ffff00 #ff9966 #00ffff #6666ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Definicion del nombre del proyecto objetivo general y objetivo especifico" color="#ff0000" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2021-10-04" duration="6" complete="0" thirdDate="2021-10-08" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Definicion del proyecto e inclusiones de los objetivos generales especificos ]]>
+            </notes>
+            <depend id="69" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="69" name="Planteamiento del problema y alcance del proyecto" color="#00ffff" meeting="false" start="2021-10-12" duration="10" complete="0" thirdDate="2021-12-07" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[en esta etapa se aran las distintas entrevistas donde identificaremos el problema de raiz de la empresa y trasariamos el alcance de dicho proceso ]]>
+            </notes>
+            <depend id="75" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="75" name="Levantamiento de informacion" color="#ff9966" meeting="false" start="2021-10-26" duration="10" complete="0" thirdDate="2021-11-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[En esta etapa del proceso podremos identificar los requisitos funcionales y no funcionales con el cual podremos dar un rendimiento mas eficaz al sistema de informacion]]>
+            </notes>
+            <depend id="83" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="83" name="Requirimientos funcionales y no funcionales" color="#ffff00" meeting="false" start="2021-11-09" duration="11" complete="0" thirdDate="2021-09-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Tratamientos de datos para identificacion de los mejores procesos por el mejor manejo de sistema de informacion]]>
+            </notes>
+            <depend id="93" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="93" name="Diagrama de procesos" color="#999900" meeting="false" start="2021-11-24" duration="6" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se evidencia la elaboracion de mapa de procesos que implica el sistema de informacion ]]>
+            </notes>
+            <depend id="97" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="97" name="Preliminar de inventarios" color="#999999" meeting="false" start="2021-12-02" duration="4" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[deifinicion preliminar de inverntario software ]]>
+            </notes>
+            <depend id="99" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="99" name="Control de versiones" color="#ff9999" meeting="false" start="2021-12-08" duration="5" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se evidencia el usos de control de versiones]]>
+            </notes>
+        </task>
+        <task id="101" name="Diagrama de casos de usos" color="#8cb6ce" meeting="false" start="2022-02-01" duration="11" complete="0" thirdDate="2021-11-18" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[En esta tarea se determina el rol de los distintos actores que actuaran en dicha compañia ]]>
+            </notes>
+            <depend id="103" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="103" name="Formato de casos de usuos extendido" color="#99ff99" meeting="false" start="2022-02-16" duration="8" complete="0" thirdDate="2022-01-11" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Descripcion de la funcion de cada actor segun su rol ]]>
+            </notes>
+            <depend id="105" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="105" name="Modelo de entidad relacion" color="#00cc33" meeting="false" start="2022-02-28" duration="15" complete="0" thirdDate="2022-01-11" thirdDate-constraint="0" expand="true">
+            <depend id="107" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="107" name="Cronograma" color="#990099" meeting="false" start="2022-03-21" duration="6" complete="0" thirdDate="2022-03-01" thirdDate-constraint="0" expand="true">
+            <depend id="109" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="109" name="Diccionario de datos" color="#8cb6ce" meeting="false" start="2022-03-29" duration="5" complete="0" thirdDate="2022-03-01" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="2" name="Jhon triviño" function="Default:1" contacts=" jatrivino5@misena.edu.co" phone="3165743526"/>
+        <resource id="4" name="Erika ubaque" function="SoftwareDevelopment:3" contacts="ejubaque0@misena.edu.co" phone="3102747952"/>
+        <resource id="5" name="Hector catesllanos" function="SoftwareDevelopment:2" contacts="castellanoshector2406@gmail.com" phone="3014987574"/>
+        <resource id="6" name="Carlos Rodriguez" function="SoftwareDevelopment:4" contacts="carlos.rodriguez605@misena.edu.co" phone="3008344010"/>
+        <resource id="7" name="Diego leon" function="SoftwareDevelopment:8" contacts="diegopalacios2012@gmail.com" phone="3204106135"/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
